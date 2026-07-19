@@ -12,5 +12,5 @@ coverage/
 /.private/
 /artifacts/
 
-# Per-user Obsidian layout may contain local paths and identifiers.
-/.obsidian/workspace.json
+# Per-user Obsidian state may contain local paths and identifiers.
+/.obsidian/
