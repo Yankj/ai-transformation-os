@@ -24,6 +24,7 @@ Software Engineer to AI Native Builder. Treat every change as a reusable asset.
 - 中文为主，核心技术名词保留英文；面向外部协作的关键文档应提供简明英文摘要。
 - 提交前运行 `npm run verify`，并按 `PRIVACY.md` 做人工脱敏检查。
 - 使用泛化案例、虚构标识和区间/比例，不使用真实公司名、项目名、人员、客户、订单、仓库地址或截图。
+- 按 `docs/architecture/information-boundaries.md` 分类信息。仅 P0（公开层）可进入此仓库；P1 私有上下文进入同级私有仓库；P2 仅存放在 `.local/`；P3 凭证只进入密码管理器或系统钥匙串。
 
 ## Where work belongs
 

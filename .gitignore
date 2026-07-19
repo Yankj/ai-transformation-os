@@ -9,4 +9,5 @@ coverage/
 
 # Local-only notes and generated artifacts
 /.local/
+/.private/
 /artifacts/

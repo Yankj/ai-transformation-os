@@ -66,6 +66,7 @@ plan, knowledge base, demo collection, or blog.
 ## 开源协作与隐私 / Open source and privacy
 
 - 请先阅读 [贡献指南 / Contributing](CONTRIBUTING.md)、[行为准则 / Code of Conduct](CODE_OF_CONDUCT.md)、[安全政策 / Security](SECURITY.md) 与 [隐私脱敏政策 / Privacy](PRIVACY.md)。
+- 信息边界和从私有内容导出公开资产的流程见 [information boundaries](docs/architecture/information-boundaries.md)。
 - **禁止**提交真实姓名、联系方式、账号、密钥、雇主内部信息、客户数据或可识别的工作经历。
 - 在提交前运行 `npm run verify`；它会检查仓库链接和常见敏感信息模式，但不能替代人工审查。
 - 本仓库以 [Apache-2.0](LICENSE) 授权；未来可交付产品将根据其独立边界选择许可。

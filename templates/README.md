@@ -8,3 +8,4 @@ them short; change them only when repeated use exposes a better structure.
 - [Content brief](content-brief.md)
 - [Weekly review](weekly-review.md)
 - [Architecture decision record](adr.md)
+- [Private companion repository](private-companion-repo/README.md)
