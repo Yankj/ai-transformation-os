@@ -1,0 +1,13 @@
+{
+  "name": "ai-transformation-os",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Git-native operating system for AI-era software-engineer career transformation.",
+  "scripts": {
+    "verify": "node scripts/verify-repository.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "Apache-2.0"
+}

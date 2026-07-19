@@ -1,0 +1,26 @@
+name: 缺陷报告 / Bug report
+description: 报告可复现的问题；不要填写密钥、个人信息或保密内容。
+title: "fix: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请勿提交个人信息、凭证、雇主/客户非公开信息。安全或泄露问题请按 SECURITY.md 私密报告。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述 / Problem
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 最小复现步骤 / Minimal reproduction
+      description: 使用脱敏或虚构数据。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期与实际结果 / Expected and actual result

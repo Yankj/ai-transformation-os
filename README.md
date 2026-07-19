@@ -1,84 +1,84 @@
-# AI Transformation OS (ATOS)
+# AI Transformation OS（ATOS）
 
-> AI 时代软件工程师职业升级操作系统
+> AI 时代软件工程师职业升级操作系统<br>
+> Career Transformation Operating System for Software Engineers in the AI Era
 
-ATOS is a long-lived, Git-native system for turning an experienced software
-engineer's learning, reasoning, and practice into connected, reusable assets.
-It is deliberately more than a study plan, note repository, demo collection,
-or blog: it is the system that makes each of those reinforce the others.
+> **语言 / Language**：中文为主，英文用于核心术语、对外协作和必要摘要。<br>
+> Chinese is primary; English supports core terms, external collaboration, and concise summaries.
 
-## North star
+ATOS 是一个长期演进、Git 原生（Git-native）的个人成长与职业升级操作系统。
+它把资深软件工程师的学习、认知和实践，沉淀为相互连接、可验证、可复用的资产。
+它不是学习计划、知识库、Demo 集合或博客；而是让这些成果形成复利的系统。
 
-Help traditional software engineers progress through:
+ATOS is a long-lived, Git-native system that turns learning, reasoning, and
+practice into connected, verifiable, reusable assets. It is not merely a study
+plan, knowledge base, demo collection, or blog.
+
+## 北极星目标 / North star
+
+帮助传统软件工程师完成职业跃迁：
 
 `Software Engineer → AI Engineer → AI Platform Engineer → AI Solution Architect → AI Native Builder`
 
-The founder's current wedge is enterprise Agent Runtime capability. The first
-MVP proves one complete loop in 14 days:
+当前切入点是企业级 **Agent Runtime**。首个 MVP 在 14 天内验证一个完整闭环：
 
-`Learn → Capture knowledge → Build evidence → Publish → Review → Improve system`
+`学习 Learn → 知识沉淀 Capture → 工程证据 Build → 内容输出 Publish → 复盘 Review → 系统改进 Improve`
 
-Read the [project charter](docs/strategy/project-charter.md),
-[career roadmap](docs/strategy/career-roadmap.md), and
-[MVP plan](docs/strategy/mvp-agent-runtime.md) first.
+从以下文档开始：
 
-## What makes an item complete
+- [项目章程 / Project charter](docs/strategy/project-charter.md)
+- [职业路线 / Career roadmap](docs/strategy/career-roadmap.md)
+- [MVP-01 计划 / MVP plan](docs/strategy/mvp-agent-runtime.md)
+- [双语与术语规范 / Language policy](docs/language-policy.md)
 
-Every meaningful learning item must produce at least one durable artifact:
+## 什么算完成 / Definition of done
 
-- a runnable demo or experiment;
-- an architecture diagram or design decision;
-- a connected Markdown knowledge card.
+每个有价值的学习主题必须至少产生一类可复用证据：
 
-The artifact then becomes raw material for content, portfolio proof, and
-future products. The operating loop is defined in
-[the operating model](docs/operating-system/operating-model.md).
+- 可运行的 Demo 或实验（experiment）；
+- 架构图或架构决策（ADR）；
+- 可链接的 Markdown 知识卡（knowledge card）。
 
-## Repository map
+这些证据随后成为作品集、文章、分享、课程或产品的原材料。具体工作流见
+[ATOS 运行模型 / Operating model](docs/operating-system/operating-model.md)。
 
-| Area | Purpose |
+## 仓库地图 / Repository map
+
+| 目录 | 用途 / Purpose |
 | --- | --- |
-| [`docs/`](docs/README.md) | Strategy, architecture, operating rules, decisions |
-| [`knowledge/`](knowledge/README.md) | Atomic and linked knowledge assets |
-| [`projects/`](projects/README.md) | Demos and portfolio projects |
-| [`content/`](content/README.md) | Public-facing drafts and distribution assets |
-| [`reviews/`](reviews/README.md) | Weekly reviews and milestone evidence |
-| [`templates/`](templates/README.md) | Repeatable formats for the system |
+| [`docs/`](docs/README.md) | 战略、架构、运行机制与决策 / strategy and decisions |
+| [`knowledge/`](knowledge/README.md) | 原子化、可连接的知识资产 / knowledge assets |
+| [`projects/`](projects/README.md) | Demo、实验与作品集工程 / engineering proof |
+| [`content/`](content/README.md) | 可公开传播的内容资产 / public content assets |
+| [`reviews/`](reviews/README.md) | 周复盘与里程碑证据 / review evidence |
+| [`templates/`](templates/README.md) | 可重复使用的工作模板 / reusable formats |
 
-## Start here (first 90 minutes)
+## 当前焦点 / Current focus
 
-1. Read the MVP outcomes and explicitly choose the first runtime scenario.
-2. Create one knowledge card for the agent-runtime mental model.
-3. Create the experiment record before writing code.
-4. Build the smallest vertical slice: input → agent loop → tool boundary →
-   trace → evaluation case.
-5. Record what happened, then turn it into one public-facing content brief.
+**MVP-01：Agent Runtime 学习闭环 / Agent Runtime Learning Loop**
 
-Use the templates rather than free-form notes. The aim is compounding value,
-not perfect documentation.
+- 周期：14 天 / 14 days
+- 成果：可解释的 Agent Runtime Lab、5 张互联知识卡、Demo 演示、一份内容初稿和一次量化复盘。
+- 约束：先完成一个单 Agent 垂直切片，再考虑多 Agent、RAG 或部署。
 
-## Current focus
+完整验收标准见 [MVP-01 scorecard](docs/strategy/mvp-agent-runtime.md#definition-of-done)。
 
-**MVP-01 — Agent Runtime Learning Loop**
+## 开源协作与隐私 / Open source and privacy
 
-- Duration: 14 days
-- Outcome: an explainable Agent Runtime lab, five connected knowledge cards,
-  a demo walkthrough, one publishable draft, and a measured retrospective.
-- Scope guardrail: build one runtime vertical slice before exploring multi-agent
-  orchestration, RAG platform design, or production infrastructure.
+- 请先阅读 [贡献指南 / Contributing](CONTRIBUTING.md)、[行为准则 / Code of Conduct](CODE_OF_CONDUCT.md)、[安全政策 / Security](SECURITY.md) 与 [隐私脱敏政策 / Privacy](PRIVACY.md)。
+- **禁止**提交真实姓名、联系方式、账号、密钥、雇主内部信息、客户数据或可识别的工作经历。
+- 在提交前运行 `npm run verify`；它会检查仓库链接和常见敏感信息模式，但不能替代人工审查。
+- 本仓库以 [Apache-2.0](LICENSE) 授权；未来可交付产品将根据其独立边界选择许可。
 
-See the [MVP scorecard](docs/strategy/mvp-agent-runtime.md#definition-of-done).
+## 与 AI 协作 / Working with AI
 
-## Working with AI collaborators
+人类负责意图、事实和最终决策；AI 负责加速研究、起草、实现、审查和建立连接。
+协作约定见 [Human + AI collaboration protocol](docs/architecture/agent-collaboration.md)。
 
-Humans own intent, truth, and final decisions. AI collaborators accelerate
-research, drafting, implementation, review, and connection-making. The shared
-contract lives in [the collaboration protocol](docs/architecture/agent-collaboration.md).
+## 原则 / Principles
 
-## Principles
-
-1. Learning is engineering.
-2. Knowledge compounds only when it is connected.
-3. Evidence beats claims.
-4. Outputs are designed for reuse and productization.
-5. Platform neutrality protects long-term value.
+1. 学习必须工程化 / Learning is engineering.
+2. 知识只有建立连接才会复利 / Connected knowledge compounds.
+3. 证据优先于主张 / Evidence beats claims.
+4. 成果为复用和产品化而设计 / Design outputs for reuse and productization.
+5. 平台无关性保护长期价值 / Platform neutrality protects long-term value.

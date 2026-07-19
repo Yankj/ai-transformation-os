@@ -1,10 +1,12 @@
-# ATOS collaboration guide
+# ATOS 协作指南 / collaboration guide
 
 ## Mission
 
+本仓库是从 Software Engineer 成长为 AI Native Builder 的长期操作系统。
+每次修改都应是一项可复用资产，而不是一次性回答。
+
 This repository is the durable operating system for the career path from
-Software Engineer to AI Native Builder. Treat every change as a reusable
-asset, not a one-off answer.
+Software Engineer to AI Native Builder. Treat every change as a reusable asset.
 
 ## Working rules
 
@@ -19,6 +21,9 @@ asset, not a one-off answer.
 - Do not place API keys, personal data, or proprietary employer material in
   the repository. Use `.env` locally and document variable names in
   `.env.example` if code needs them.
+- 中文为主，核心技术名词保留英文；面向外部协作的关键文档应提供简明英文摘要。
+- 提交前运行 `npm run verify`，并按 `PRIVACY.md` 做人工脱敏检查。
+- 使用泛化案例、虚构标识和区间/比例，不使用真实公司名、项目名、人员、客户、订单、仓库地址或截图。
 
 ## Where work belongs
 

@@ -1,0 +1,23 @@
+name: 功能建议 / Feature request
+description: 提议一个可验证、可复用的 ATOS 改进。
+title: "feat: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的问题 / Problem to solve
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据与受益对象 / Evidence and audience
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案与边界 / Proposal and scope
+    validations:
+      required: true
