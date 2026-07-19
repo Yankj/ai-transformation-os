@@ -12,7 +12,7 @@
 
 | ID | Card | Evidence target | Status |
 | --- | --- | --- | --- |
-| AR-001 | Agent loop and runtime boundaries | State machine | Planned |
+| [AR-001](AR-001-agent-loop-and-runtime-boundaries.md) | Agent loop and runtime boundaries | State machine and minimal contract | Draft |
 | AR-002 | Runtime state and context | Reproducible state snapshot | Planned |
 | AR-003 | Tool execution contract | Simulated tool tests | Planned |
 | AR-004 | Traces and observability | Trace schema | Planned |

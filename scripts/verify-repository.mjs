@@ -3,6 +3,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const ignoredDirectories = new Set([".git", "node_modules", "dist", "coverage", ".local"]);
+const ignoredRelativePaths = new Set([".obsidian/workspace.json"]);
 const textExtensions = new Set([".md", ".json", ".yml", ".yaml", ".js", ".mjs", ".ts", ".tsx", ".jsx", ".env"]);
 const files = [];
 
@@ -41,6 +42,7 @@ const sensitivePatterns = [
 ];
 
 for (const file of files) {
+  if (ignoredRelativePaths.has(relative(file))) continue;
   const text = fs.readFileSync(file, "utf8");
   if (file.endsWith(".md")) checkMarkdownLinks(file, text);
   for (const [label, pattern] of sensitivePatterns) {
