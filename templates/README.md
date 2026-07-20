@@ -9,3 +9,4 @@ them short; change them only when repeated use exposes a better structure.
 - [Weekly review](weekly-review.md)
 - [Architecture decision record](adr.md)
 - [Private companion repository](private-companion-repo/README.md)
+- [Learning session handoff](learning-session.md)

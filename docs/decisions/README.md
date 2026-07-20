@@ -6,3 +6,4 @@ future product direction. Use the ADR template in `templates/`.
 | ID | Decision | Status |
 | --- | --- | --- |
 | [ADR-001](ADR-001-git-native-source-of-truth.md) | Git-native Markdown is the source of truth | Accepted |
+| [ADR-002](ADR-002-learning-gate-model.md) | Learning flow uses phase gates, not document completion | Proposed |
