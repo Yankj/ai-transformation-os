@@ -6,4 +6,4 @@ architecture, verification method, and links back to knowledge.
 
 | Project | Purpose | Status |
 | --- | --- | --- |
-| [`agent-runtime-lab/`](agent-runtime-lab/README.md) | MVP-01 enterprise Agent Runtime vertical slice | Designed |
+| [`agent-runtime-lab/`](agent-runtime-lab/README.md) | MVP-01 enterprise Agent Runtime vertical slice | Designed — not implemented (as of 2026-11-15) |

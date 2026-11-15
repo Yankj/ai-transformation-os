@@ -1,5 +1,20 @@
 # MVP-01: Agent Runtime Learning Loop
 
+## Status (updated 2026-11-15)
+
+**Incomplete.** The original 14-day window ran from 2026-07-19 and was not
+finished. The repository has a runtime boundary card, a designed lab, and a
+ten-case evaluation spec; it does not have an implementation, observed
+results, a demo walkthrough, or a score recorded during that window.
+
+The 2026-11-15 restart keeps this MVP as the next engineering bet, but does
+not resume the calendar as if the sprint were still in progress. Method cards
+on delivery paradigms and the Docs → Rules → Skills path were added first.
+See the [milestone retrospective](../../reviews/2026-11-15-mvp01-restart.md).
+
+Do not describe the lab as runnable, and do not start a broader topic in place
+of the missing evidence.
+
 ## Objective
 
 Within 14 days, gain and demonstrate enterprise-oriented Agent Runtime
@@ -17,14 +32,14 @@ engineering object.
 
 ## Definition of done
 
-| Dimension | Required evidence |
-| --- | --- |
-| Mental model | ≥5 linked cards: agent loop, state, tool execution, trace/observability, evaluation/safety |
-| Engineering | One runnable or reproducibly specified vertical slice in `projects/agent-runtime-lab/` |
-| Architecture | Runtime boundary diagram and at least one ADR |
-| Evaluation | ≥10 scenario cases with expected outcome and observed result |
-| Communication | One demo walkthrough plus one article/video brief |
-| Reflection | One weekly review and a final retrospective with next bets |
+| Dimension | Required evidence | Status on 2026-11-15 |
+| --- | --- | --- |
+| Mental model | ≥5 linked cards: agent loop, state, tool execution, trace/observability, evaluation/safety | Not done. Only AR-001 exists. |
+| Engineering | One runnable or reproducibly specified vertical slice in `projects/agent-runtime-lab/` | Not done. Design only; no `src/`. |
+| Architecture | Runtime boundary diagram and at least one ADR | Partial. Boundary model exists; no runtime ADR. |
+| Evaluation | ≥10 scenario cases with expected outcome and observed result | Not done. Expected outcomes exist; observed results do not. |
+| Communication | One demo walkthrough plus one article/video brief | Not done. Brief only; evidence pending. |
+| Reflection | One weekly review and a final retrospective with next bets | Partial as of 2026-11-15: milestone retrospective exists; the week-1 review was never written. |
 
 ## Scope: smallest useful vertical slice
 
@@ -38,6 +53,9 @@ tested without credentials. A provider adapter may be added later, but a live
 model call is not the definition of success.
 
 ## 14-day sequence
+
+This sequence remains the implementation plan if and when the lab is started.
+It is historical context, not a claim that the work is underway.
 
 | Days | Theme | Deliverables |
 | --- | --- | --- |
@@ -64,3 +82,6 @@ model call is not the definition of success.
 At the end, score 0–2 for each item: explainability, reproducibility,
 observability, evaluation quality, public clarity, and system reuse. A score
 below 9/12 means improve the loop before starting a broader topic.
+
+No score was recorded in July 2026. A retrospective score will be written only
+after the lab produces reproducible runs.
