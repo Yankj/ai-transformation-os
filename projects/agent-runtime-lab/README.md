@@ -1,7 +1,13 @@
 # Agent Runtime Lab
 
 **Project ID:** `AR-LAB-001`  
-**Status:** Designed — implementation begins in MVP days 3–4
+**Status:** Designed — not implemented (as of 2026-11-15)
+
+The experiment contract, architecture notes, and ten evaluation cases exist.
+There is still no `src/`, no deterministic runner, and no observed results.
+This project is the next engineering bet after the 2026-11 restart, not a
+completed portfolio demo. See the
+[milestone retrospective](../../reviews/2026-11-15-mvp01-restart.md).
 
 ## Purpose
 
@@ -57,5 +63,6 @@ User task
 
 ## Next action
 
-Fill in the experiment's assumptions and the first five test scenarios before
-choosing an implementation framework.
+Do not fill observed results by hand. The next real step is a deterministic
+implementation that can run the first five cases in `evals/cases.md` without
+credentials. Until then, keep the status as Designed.

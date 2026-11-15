@@ -29,5 +29,9 @@ supports external collaboration, and enables future public distribution.
 | 评估 | Evaluation / Evals | 对质量、安全、成本或任务结果的系统验证 |
 | 可观测性 | Observability | Trace、日志、指标和诊断能力 |
 | 架构决策记录 | Architecture Decision Record (ADR) | 可追溯的架构取舍 |
+| 规则 | Rules | 描述「应该是什么、不要做什么」的静态约束 |
+| 技能 | Skills | 有触发条件、步骤、完成标准，必要时含校验的可执行 SOP |
+| 产品自主交付 | PDE | 产品同学在受控流程中完成简单需求；研发保留质量责任。首次出现应写「PDE（产品自主交付）」 |
 
 术语首次出现时建议采用“中文（English）”形式，后续按上下文选择一种表达。
+公开写作应解释 PDE，避免读者把它理解成其他角色缩写。
